@@ -6,13 +6,13 @@ Test Model Locally
 - Enable python virtual environment.
   source ./.venv/bin/activate
 
-- Install dependencies
+- Install dependencies.
   python3 -m pip install -r requirements.txt
 
-- Train the model
+- Train the model.
   python3 train.py
 
-- Run the model
+- Run the model.
   python3 run_model.py --input "[10,1,5,10]"
   python3 run_model.py --input "[10,1,5,2]"
   python3 run_model.py --input "[10,1,1,1]"
