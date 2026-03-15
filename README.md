@@ -7,7 +7,7 @@ Test Model Locally
   source ./.venv/bin/activate
 
 - Install dependencies.
-  python3 -m pip install -r requirements.txt
+  \n python3 -m pip install -r requirements.txt
 
 - Train the model.
   python3 train.py
